@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_marginTop="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name : "
+            android:textSize="25sp"
+            />
+
+        <TextView
+            android:id="@+id/fname_text"
+            android:layout_marginTop="25sp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="xxxx"
+            android:textSize="25sp"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="25sp"
+            android:layout_height="wrap_content"
+            android:text="Last Name : "
+            android:textSize="25sp"
+            />
+
+        <TextView
+            android:id="@+id/lname_text"
+            android:layout_marginTop="25sp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="xxxx"
+            android:textSize="25sp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="25sp"
+            android:layout_height="wrap_content"
+            android:text="Email ID :  "
+            android:textSize="25sp"
+            />
+
+        <TextView
+            android:id="@+id/email_text"
+            android:layout_marginTop="25sp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="example@gmail.com"
+            android:textSize="25sp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="25sp"
+            android:layout_height="wrap_content"
+            android:text="Pincode : "
+            android:layout_marginBottom="25sp"
+            android:textSize="25sp"
+            />
+
+        <TextView
+            android:id="@+id/pincode_text"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="25sp"
+            android:layout_weight="1"
+            android:text="000000"
+            android:textSize="25sp"
+            />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/quit_button"
+            android:layout_weight="1"
+            android:layout_marginTop="50sp"
+            android:layout_margin="30sp"
+            android:background="@color/colorPrimary"
+            android:text="Cancel"
+            />
+    </TableRow>
+
+</TableLayout>
